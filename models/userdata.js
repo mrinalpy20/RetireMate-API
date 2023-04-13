@@ -42,9 +42,11 @@ const dbSchema = new mongoose.Schema({
     fd:{
         type:String,
         required:true
+    },
+    fd_interests:{
+        type:String,
+        required:true
     }
 });
-
 const userdata  = mongoose.model("userdata",dbSchema);
-
 module.exports=userdata;
