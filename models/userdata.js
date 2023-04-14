@@ -46,6 +46,10 @@ const dbSchema = new mongoose.Schema({
     fd_interests:{
         type:String,
         required:true
+    },
+    time_to_retire:{
+        type:String,
+        required:true
     }
 });
 const userdata  = mongoose.model("userdata",dbSchema);
