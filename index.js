@@ -18,5 +18,5 @@ app.listen(PORT,()=>{
     console.log("server started");
 })
 app.get('/',(req,res)=>{
-    res.send('hello world');
+    res.send('API is running!');
 });
